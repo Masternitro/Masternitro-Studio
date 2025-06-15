@@ -1,2 +1,0 @@
-# Masternitro-Studio
-Prueba piloto
