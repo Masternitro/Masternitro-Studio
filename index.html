@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPTIMAX | Inicio</title>
+    <link rel="icon" href="ICONO-OPTIMAX.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004E89;">
+        <div class="container-fluid">
+        <!-- Logo y Nombre -->
+        <div class="d-flex align-items-center col-4">
+            <img src="ICONO-OPTIMAX.png" alt="Logo OPTIMAX" width="40" height="40" class="me-2">
+            <span class="navbar-brand mb-0 h1">OPTIMAX</span>
+        </div>
+
+        <!-- Botón del menú para móviles -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Opciones de navegación -->
+        <div class="collapse navbar-collapse col-lg-8 justify-content-end" id="menuNav">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="portafolio.html">Portafolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="formulario.html">Formulario</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <hr style="border: 2px solid #FFD60A; margin: 0;">
+
+    <!--sección principal con la bienvenida-->
+    <section class="py-5 py-md-6 min-vh-100 d-flex align-items-center" style="background-color: #E8F4F8;">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Texto de bienvenida -->
+            <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h1 class="display-5 fw-bold" style="color:#004E89">
+                  Bienvenido a <span style="color:#004E89">OPTIMAX</span>
+                </h1>
+                <p class="lead mt-3" style="color:#5C677D">
+                  Prevención hoy, rendimiento mañana. Mantenimiento preventivo y correctivo especializado para garantizar la operatividad continua de tus equipos.
+                </p>
+                <p class="text-muted">
+                  Desde la limpieza técnica hasta reparaciones especializadas, protegemos tu inversión tecnológica para que tu negocio nunca se detenga.
+                </p>
+            </div>
+            
+            <!-- Carrusel de imágenes -->
+            <div class="col-md-6">
+              <div id="carouselBienvenida" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner rounded shadow">
+                  <div class="carousel-item active">
+                    <img src="slider1.jpg" class="d-block w-100" alt="Carrusel 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider2.jpg" class="d-block w-100" alt="Carrusel 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider3.jpg" class="d-block w-100" alt="Carrusel 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider1.jpg" class="d-block w-100" alt="Carrusel 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider2.jpg" class="d-block w-100" alt="Carrusel 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider3.jpg" class="d-block w-100" alt="Carrusel 6">
+                  </div>
+                </div>
+                <!-- Controles opcionales -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBienvenida" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBienvenida" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <hr style="border: 2px solid #FFD60A; margin: 0;">
+
+    <!--quiénes somos-->
+    <section class="py-5 py-md-6 bg-light min-vh-100 d-flex align-items-center">
+        <div class="container">
+        <div class="row align-items-center">
+            <!-- Imagen a la izquierda -->
+            <div class="col-md-6 mb-4 mb-md-0 text-center">
+              <img src="identidad.jpg" class="img-fluid rounded shadow mx-auto d-block" style="height: 300px; object-fit: cover;" alt="Imagen identidad">
+            </div>            
+    
+            <!-- Texto a la derecha -->
+            <div class="col-md-6 text-center text-md-start">
+            <h2 class="fw-bold" style="color:#004E89">Quiénes somos</h2>
+            <p class="lead mt-3" style="text-align: justify; color:#5C677D">
+                <strong>OPTIMAX</strong> nació para convertir desafíos técnicos en soluciones preventivas reales. 
+                Fundada el 21 de febrero de 2025 en el aula 203 del edificio C del Instituto Tecnológico Centroamericano (ITCA-FEPADE), nuestra iniciativa surgió de un grupo de estudiantes apasionados por el mantenimiento técnico, la eficiencia operativa y el espíritu emprendedor mientras cursaban la materia de Planes de Negocios y Cooperativas Asociativas.
+              </p>
+              <p style="text-align: justify; color:#5C677D">
+                Creemos en el poder del mantenimiento planificado, en la cercanía con quienes confían en nosotros y en que cada equipo atendido es una oportunidad para alargar su vida útil. Nuestra esencia combina precisión técnica, responsabilidad y la visión de construir un futuro donde ninguna máquina falle por falta de cuidado preventivo.
+            </p>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="nosotros.html" class="btn btn-primary px-4 py-2" style="background-color: #004E89; border: none;">
+                    Descubre nuestra historia
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <hr style="border: 2px solid #FFD60A; margin: 0;">
+
+   <!-- Sección de Servicios en cajitas -->
+<section class="d-flex align-items-center min-vh-100 py-5 py-md-6" style="background-color: #E8F4F8;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold" style="color:#004E89">¿Qué hacemos?</h2>
+      <p class="lead" style="color:#5C677D">En OPTIMAX brindamos soluciones técnicas integrales para garantizar el funcionamiento, la seguridad y la durabilidad de tus equipos tecnológicos e industriales.</p>
+    </div>
+
+    <div class="row text-center justify-content-center">
+      
+      <!-- Caja Servicio 1 -->
+      <div class="col-md-3 m-3 p-4 border rounded shadow-sm bg-white" style="border-color: #FFD60A !important; border-width: 2px !important;">
+        <i class="bi bi-gear-wide-connected fs-1 mb-3" style="color:#FFD60A"></i>
+        <h5 class="fw-bold mt-3" style="color:#004E89">Mantenimiento Preventivo</h5>
+        <p class="small" style="color:#5C677D">Realizamos limpieza, revisión de hardware, actualizaciones y optimización del sistema para prevenir fallas y alargar la vida útil de tus equipos.</p>
+      </div>
+
+      <!-- Caja Servicio 2 -->
+      <div class="col-md-3 m-3 p-4 border rounded shadow-sm bg-white" style="border-color: #FFD60A !important; border-width: 2px !important;">
+        <i class="bi bi-tools fs-1 mb-3" style="color:#FFD60A"></i>
+        <h5 class="fw-bold mt-3" style="color:#004E89">Mantenimiento Correctivo</h5>
+        <p class="small" style="color:#5C677D">Detectamos y solucionamos fallas en computadoras, impresoras y redes. Recuperamos el rendimiento del equipo con repuestos y diagnósticos precisos.</p>
+      </div>
+
+      <!-- Caja Servicio 3 -->
+      <div class="col-md-3 m-3 p-4 border rounded shadow-sm bg-white" style="border-color: #FFD60A !important; border-width: 2px !important;">
+        <i class="bi bi-shield-lock-fill fs-1 mb-3" style="color:#FFD60A"></i>
+        <h5 class="fw-bold mt-3" style="color:#004E89">Seguridad y Respaldo</h5>
+        <p class="small" style="color:#5C677D">Protegemos tu información con medidas de seguridad digital, copias de respaldo y orientación en el uso responsable de la tecnología.</p>
+      </div>
+
+      <!-- Caja Servicio 4 -->
+      <div class="col-md-3 m-3 p-4 border rounded shadow-sm bg-white" style="border-color: #FFD60A !important; border-width: 2px !important;">
+        <i class="bi bi-person-lines-fill fs-1 mb-3" style="color:#FFD60A"></i>
+        <h5 class="fw-bold mt-3" style="color:#004E89">Capacitación y Soporte Técnico</h5>
+        <p class="small" style="color:#5C677D">Ofrecemos talleres educativos, asesorías y atención personalizada para que estudiantes, docentes y emprendedores dominen el mantenimiento básico.</p>
+      </div>
+
+    </div>
+
+    <!-- Botón -->
+    <div class="text-center mt-4">
+      <a href="servicios.html" class="btn btn-primary px-4 py-2" style="background-color: #004E89; border: none;">Ver todos los servicios</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Línea divisoria -->
+    <hr style="border: 2px solid #FFD60A; margin: 0;">
+
+    <!-- Sección de Portafolio -->
+    <section class="py-5 py-md-6 bg-light min-vh-100" style="background-color: #f8f9fa;">
+        <div class="container text-center">
+          <h2 class="fw-bold mb-4" style="color:#004E89">Nuestro Portafolio</h2>
+          <p class="lead mb-5" style="color:#5C677D">Conoce algunos de nuestros trabajos destacados.</p>
+      
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="p-3 border rounded shadow-sm" style="background-color: #E8F4F8;">
+                <img src="11.png" class="img-fluid rounded mb-3" alt="Proyecto 1" data-bs-toggle="modal" data-bs-target="#modal1" style="cursor: pointer;">
+                <h5 class="fw-semibold" style="color:#004E89">Mantenimiento Empresarial</h5>
+                <p class="small text-muted">Servicio preventivo integral para PYMEs salvadoreñas.</p>
+              </div>
+            </div>
+      
+            <!-- Proyecto 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="p-3 border rounded shadow-sm" style="background-color: #E8F4F8;">
+                <img src="13.png" class="img-fluid rounded mb-3" alt="Proyecto 2" data-bs-toggle="modal" data-bs-target="#modal2" style="cursor: pointer;">
+                <h5 class="fw-semibold" style="color:#004E89">Soporte Educativo</h5>
+                <p class="small text-muted">Mantenimiento de laboratorios y equipos escolares.</p>
+              </div>
+            </div>
+      
+            <!-- Proyecto 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="p-3 border rounded shadow-sm" style="background-color: #E8F4F8;">
+                <img src="12.png" class="img-fluid rounded mb-3" alt="Proyecto 3" data-bs-toggle="modal" data-bs-target="#modal3" style="cursor: pointer;">
+                <h5 class="fw-semibold" style="color:#004E89">Reparación Especializada</h5>
+                <p class="small text-muted">Diagnóstico y solución de fallas complejas.</p>
+              </div>
+            </div>
+          </div>
+      
+          <a href="portafolio.html" class="btn btn-outline-dark mt-4" style="background-color:#E8F4F8; color:#004E89; border-color:#004E89;">Ver Portafolio Completo</a>
+        </div>
+      </section>
+      
+      <!-- Modales Bootstrap para ampliar imágenes -->
+      <!-- Modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <img src="portafolio1.png" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <img src="portafolio2.png" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 3 -->
+      <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <img src="portafolio3.png" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    
+    <!-- Línea divisoria -->
+    <hr style="border: 2px solid #FFD60A; margin: 0;">
+
+    <!-- Sección de Footer -->
+    <footer class="text-white py-4" style="background-color: #004E89;">
+        <div class="container">
+          <div class="row text-center text-md-start">
+            <!-- Columna 1: Logo o nombre -->
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h5 class="fw-bold">OPTIMAX</h5>
+              <p class="small">Prevención hoy, rendimiento mañana.</p>
+              <img src="ICONO-OPTIMAX.png" alt="Icono OPTIMAX" style="width: 40px; margin-top: 10px;">
+            </div>
+      
+            <!-- Columna 2: Enlaces rápidos -->
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h6 class="fw-semibold">Enlaces</h6>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+                <li><a href="servicios.html" class="text-white text-decoration-none">Servicios</a></li>
+                <li><a href="portafolio.html" class="text-white text-decoration-none">Portafolio</a></li>
+                <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+              </ul>
+            </div>
+      
+            <!-- Columna 3: Contacto o redes -->
+            <div class="col-md-4">
+              <h6 class="fw-semibold">Contáctanos</h6>
+              <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i>contacto@optimax.sv</p>
+              <p class="small mb-2"><i class="bi bi-telephone-fill me-2"></i>+503 6127 4495</p>
+              <div>
+                <a href="https://www.facebook.com/optimax/" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/optimax/" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Línea inferior -->
+          <hr class="border-light mt-4">
+          <p class="text-center small mb-0">&copy; 2025 OPTIMAX. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
